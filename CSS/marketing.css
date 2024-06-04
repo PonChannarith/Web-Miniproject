@@ -1,0 +1,521 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Battambang:wght@100;300;400;700;900&family=Bayon&family=Bungee+Spice&family=Hanuman:wght@100;300;400;700;900&family=Jacquard+12+Charted&family=Jersey+25&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koulen&family=Moul&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Battambang:wght@100;300;400;700;900&family=Bayon&family=Bungee+Spice&family=Hanuman:wght@100;300;400;700;900&family=Jacquard+12+Charted&family=Jersey+25&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koulen&family=Moul&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Battambang:wght@100;300;400;700;900&family=Bayon&family=Bungee+Spice&family=Hanuman:wght@100;300;400;700;900&family=Jacquard+12+Charted&family=Jersey+25&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Koulen&family=Moul&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --color-blue: rgb(90, 90, 217);
+    --color-red:rgb(253, 140, 140);
+    --color-green:rgb(136, 255, 136);
+    --color-pink:rgb(255, 155, 243);
+}
+header{
+    width: 100%;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+header .menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+header .menu .nav-category{
+    width:20%;
+    margin-left: 40px;
+}
+header .menu .nav-category figure{
+    display: flex;
+    margin: 15px;
+}
+header .menu .nav-category img{
+    width: 140px;
+    padding-top: 20px;
+}
+header .menu .nav-category ul{
+    list-style-type: none;
+    display: flex;
+}
+header .menu .nav-category ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(92, 92, 220);
+    display: block;
+    padding-top: 20px;
+    font-weight:bold;
+    font-style: normal;
+}
+
+header .menu .nav-bar{
+    width: 50%;
+    margin: 0 auto;
+}
+header .menu .nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 22px;
+    margin-left: 200px;
+}
+header .menu .nav-bar ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 400;
+    color: black;
+    display: block;
+    font-weight: bold;
+    margin: 15px;
+}
+header .menu .nav-search{
+    width: 25%;
+}
+header .menu .nav-search figure{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+header .menu .nav-search figure img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+header .menu .nav-search figure ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+header .menu .nav-search figure ul li a{
+    text-decoration: none;
+}
+header .menu .nav-search figure ul li a input{
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 200px;
+    display: block;
+    height: 40px;
+    position: relative;
+}
+header .menu .nav-search figure ul li a input::placeholder{
+    font-size:17px;
+    padding: 10px;
+}
+header .menu .nav-search figure  .fa-magnifying-glass{
+    position: absolute;
+    margin-left: 170px;
+    font-size: 17px;
+    margin-top: -28px;
+    color: rgba(0, 0, 0, 0.597);
+}
+main{
+    width:70%;
+    height:600px;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+main .main-box{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .main-box .text{
+    width:43%;
+    height: 30%;
+}
+main .main-box .text h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.908);
+    font-weight: bold;
+    padding-top: 60px;
+}
+main .main-box .text span{
+    color: rgba(0, 0, 0, 0.908);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+main .main-box .text figcaption span{
+    margin: 5px 9px;
+    font-size: 15px;
+}
+main .main-box .box-image{
+    width: 50%;
+    height: 100%;
+    margin-top: 140px;
+}
+main .main-box .box-image .img{
+    width: 100%;
+    height: 100%;
+}
+main .main-box .box-image .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+main img{
+    margin-top: -200px;
+}
+/* .container{
+    margin-top: 170px;
+} */
+.container .row .col-3 .main-box{
+    background-color: aqua;
+    box-shadow: 4px 3px 5px #cccc;
+    height: 200px;
+}
+.container .row .col-3 .main-box .img{
+    width: 50%;
+    height:50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.container .row .col-3 .main-box .img .main-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.container .row .col-3 .main-box .img .main-image img{
+    width: 100%;
+    height: 100%;
+}
+.container {
+    margin-top: 170px;
+}
+.container .row  .col-3  .main-box {
+    background-color: aqua;
+    box-shadow: 4px 4px 5px #cccc;
+    height: 180px;
+}
+.container .row  .col-3  .main-box  .img {
+    width: 35%;
+    height: 35%;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.container .row  .col-3  .main-box  .img  .box-image  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.container .row  .col-3  .main-box .text{
+    width: 100%;
+    height: 50%;
+    margin-top: 20px;
+}
+.container .row  .col-3  .main-box .text h3{
+    padding-left:120px;
+    padding-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .row  .col-3  .main-box .text span{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+
+}
+section{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+section h2{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+section h2:hover{
+    color: var(--color-red);
+}
+section span{
+    font-size: 20px;
+    transition: all 0.3s;
+    text-align: center;
+    margin-left: 80px;
+    
+}
+section p:hover{
+    color: var(--color-green);
+    cursor: pointer;
+}
+.menu-bar{
+    border-radius: 10px;
+}
+.menu-bar ul{
+    list-style-type: none;
+    display: flex;
+    margin: auto;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgb(195, 255, 255);
+    width: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    margin: 5px 5px;
+    text-align: center;
+    color: rgb(218, 20, 89);
+    justify-content: center;
+    padding: 3px 5px;
+    font-size: 20px;
+    display: block;
+    transition: all 0.3s;
+
+}
+.menu-bar ul li:nth-child(4){
+    background-color: rgba(0, 0, 255, 0.539);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu-bar ul li:hover{
+    background-color: #2e68c2;
+    color: #ffffff;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.container{
+    width: 70%;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+.container .row .col-3 .content{
+    width: 300px;
+    height: 480px;
+    box-shadow: 4px 4px 3px #ccc;
+    border-left: 1px solid #dedede;
+    border-radius: 10px;
+    margin-top: 15px;
+   
+}
+.container .row .col-3 .content .img{
+    width: 100%;
+    height: 200px;
+}
+.container .row .col-3 .content .img img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    border-radius: 10px;
+}
+.container .row .col-3 .content .img img:hover{
+    cursor: pointer;
+    transform: scaleY(0.9)
+}
+.container .row .col-3 .content  .center{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    color: blue;
+    padding-left: 10px;
+}
+.container .row .col-3 .content  .center .fa-heart{
+    font-size: 17px;
+    color: var(--color-red);
+    padding-top: 5px;
+}
+.container .row .col-3 .content  .center button{
+    color: violet;
+    font-size: 15px;
+    border:none;
+    padding: 5px 7px;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.container .row .col-3 .content  .center p{
+    width: 95px;
+}
+.container .row .col-3 .content  .center button span{
+    border-radius: 5px;
+    width: 70px;
+    font-size: 20px;
+    height: 30px;
+    color: blueviolet;
+}
+.container .row .col-3 .content  .center button span:hover{
+    color: fuchsia;
+    cursor: pointer;
+}
+.container .row .col-3 .content  .center span p{
+    color: red;
+}
+.container .row .col-3 .content  .center span p:hover{
+    color: gold;
+    cursor: pointer;
+}
+.container .row .col-3 .content  h2{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight:500;
+    padding-left: 15px;
+}
+.container .row .col-3 .content h2:hover{
+    color: rgb(238, 36, 13);
+    cursor: pointer;
+} 
+p{
+    color:rgb(133, 128, 128);
+    font-size: 17px;
+    padding-left: 15px;
+}
+.star {
+    display: flex;
+    margin: 10px 20px;
+}
+.star figure:hover{
+    cursor: pointer;
+    color: rgb(20, 217, 191);
+}
+.star figure{
+    font-size: 17px;
+    color: gold; 
+}
+.star span{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.star span:hover{
+    color: rgb(167, 14, 162);
+    cursor: pointer;
+}
+.container .row .col-3 .content .card-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+.container .row .col-3 .content .card-footer span{
+    color: black;
+    padding-right: 10px;
+    padding:1px 10px;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.container .row .col-3 .content .card-footer span:hover{
+    color: rgb(0, 38, 255);
+    cursor: pointer;
+}
+.container .row .col-3 .content .card-footer .fa-clock{
+    color: red;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.container .row .col-3 .content .card-footer .fa-calendar-days{
+    color: rgb(246, 190, 48);
+}
+.Instructor{
+    width: 70%;
+    background-image: url(../Image/bg.jpg);
+    margin: 0 auto;
+    height: 170px;
+    margin-top: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit:contain;
+    border-radius: 5px;
+    
+}
+.Instructor .txt{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 35px;
+}
+.Instructor .txt .info h2{  
+    font-size: 30px;
+    color: #ffffff;
+    padding-left: 13px;
+}
+.Instructor .txt .info p{
+    font-size: 17px;
+    color: #ffffff;
+}
+.Instructor .txt .teaching input{
+    margin-top:30px;
+    padding: 10px;
+    border:2px solid gold;
+    color: gold;
+    width: 180px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Instructor .txt .teaching input::placeholder{
+    color: gold;
+    font-size: 17px;
+}
+section h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-weight: bold;
+}
+section h1:hover{
+    color:rgba(0, 0, 255, 0.552);
+}
+section p{
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.67);
+    margin-left: 230px;
+}
+footer figure .box-info img{
+    width: 180px;
+}
+footer figure .box-info p{
+    color: #3837378f;
+    font-size: 15px;
+    padding-top: 5px;
+}
+footer figure .sponsor ul{
+    list-style-type: none;
+}
+footer figure .sponsor ul li a{
+    margin:5px;
+    font-size: 20px;
+    display: block;
+    background-color: #efefefff;
+    padding: 5px;
+    border-radius: 5px;
+}
+footer figure .sponsor .menu{
+    margin-left: -5px;
+}
+footer  .box-allinfo h2{
+    color:black;
+    font-size: 20px;
+}
+footer  .box-allinfo ul{
+    list-style-type: none;
+}
+footer  .box-allinfo ul li a{
+    text-decoration: none;
+    color: #3837378f;
+    font-size: 15px;
+    margin-left: -30px;
+    transition: all 0.3s;
+}
+footer  .box-allinfo ul li a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+footer  .box-allinfo span ul{
+    list-style-type: none;
+}
+footer  .box-allinfo figure img{
+    width: 120px;
+    margin: 0 20px;
+    justify-content:space-between;
+}
